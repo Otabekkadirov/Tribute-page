@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+  line-height: 2em;
+}
+#main {
+  display: block;
+  margin: 25px 10px;
+  background-color: #eee;
+  border-radius: 7px;
+}
+#title {
+  text-align: center;
+  font-size: 46px;
+  padding: 20px 10px;
+  position: relative;
+  top: 35px;
+}
+.title-info {
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+}
+figure {
+  background-color: #fff;
+  padding: 10px;
+  margin: 15px;
+}
+figcaption {
+  padding: 15px;
+}
+#image {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+#image-caption {
+  font-size: 16px;
+  text-align: center;
+}
+#tribute-info {
+  margin: 0 auto;
+  max-width: 800px;
+}
+#tribute-info h2 {
+  text-align: center;
+}
+
+li::marker {
+  content: "🏴";
+}
+#tribute-info ul li {
+  padding: 10px;
+}
+#tribute-info article {
+  font-style: italic;
+  padding: 0 20px;
+}
+.wiki-info {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+}
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+  #title {
+    font-size: 32px;
+  }
+}
